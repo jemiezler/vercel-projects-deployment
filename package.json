@@ -3,6 +3,6 @@
   "private": true,
   "workspaces": ["apps/*"],
   "scripts": {
-    "build": "cd apps/main && bun run build && cd ../nuxt-landing-arch && bun run build"
+    "build": "cd apps/next-main && bun run build && cd ../nuxt-landing-arch && bun run build"
   }
 }
