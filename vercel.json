@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/nuxt-landing-arch/:path*",
-      "destination": "/:path*"
+      "destination": "/apps/nuxt-landing-arch/:path*"
     },
     {
       "source": "/:path*",
-      "destination": "/:path*"
+      "destination": "/apps/next-main/:path*"
     }
   ]
 }
