@@ -15,7 +15,12 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  app: {
+    baseURL: '/nuxt-landing-arch/' 
+  },
+
+  // Nitro preset for Vercel
   nitro: {
-    preset: "vercel"
+    preset: 'vercel'
   }
 });
