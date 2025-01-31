@@ -1,12 +1,13 @@
 {
   "rewrites": [
     {
-      "source": "/nuxt-landing-arch/:path*",
-      "destination": "/apps/nuxt-landing-arch/:path*"
+      "source": "/nuxt-landing-arch/:path*", 
+      "destination": "/:path*", 
+      "has": [{ "type": "host", "value": "projects.jemiezler.site" }]
     },
     {
-      "source": "/:path*",
-      "destination": "/apps/next-main/:path*"
+      "source": "/:path*", 
+      "destination": "/:path*"
     }
   ]
 }
