@@ -1,9 +1,8 @@
 {
-    "rewrites": [
-      {
-        "source": "/nuxt-landing-arch/:path*", 
-        "destination": "/.vercel/output/static/:path*"
-      }
-    ]
-  }
-  
+  "rewrites": [
+    {
+      "source": "/nuxt-landing-arch/:path*",
+      "destination": "/:path*"
+    }
+  ]
+}
