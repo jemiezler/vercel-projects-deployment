@@ -16,11 +16,14 @@ export default defineNuxtConfig({
     },
   },
   app: {
-    baseURL: '/nuxt-landing-arch/' 
+    baseURL: '/nuxt-landing-arch/'
   },
 
   // Nitro preset for Vercel
   nitro: {
     preset: 'vercel'
+  }, image: {
+    dir: "public", // Ensures Nuxt Image looks in `public/`
+    domains: ["projects.jemiezler.site"], // Allow external image domains if needed
   }
 });

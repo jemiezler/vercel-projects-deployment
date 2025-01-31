@@ -4,5 +4,16 @@
       "source": "/nuxt-landing-arch/:path*",
       "destination": "/:path*"
     }
+  ],
+  "headers": [
+    {
+      "source": "/nuxt-landing-arch/_ipx/**",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store, max-age=0"
+        }
+      ]
+    }
   ]
 }
