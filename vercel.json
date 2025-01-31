@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+      {
+        "source": "/nuxt-landing-arch/:path*", 
+        "destination": "/apps/nuxt-landing-arch/:path*"
+      }
+    ]
+  }
+  

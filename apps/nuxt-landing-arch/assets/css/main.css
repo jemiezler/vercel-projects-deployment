@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+  --color-primary: #333333;
+}
+
+.pages {
+  @apply flex w-full h-[calc(100dvh-6rem)] px-[8rem];
+}
