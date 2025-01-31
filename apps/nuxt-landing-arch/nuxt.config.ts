@@ -23,7 +23,6 @@ export default defineNuxtConfig({
   nitro: {
     preset: 'vercel'
   }, image: {
-    dir: "public", // Ensures Nuxt Image looks in `public/`
-    domains: ["projects.jemiezler.site"], // Allow external image domains if needed
+    dir: "./public", // Ensures Nuxt Image looks in `public/`
   }
 });

@@ -3,6 +3,10 @@
     {
       "source": "/nuxt-landing-arch/:path*",
       "destination": "/:path*"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/:path*"
     }
   ]
 }
