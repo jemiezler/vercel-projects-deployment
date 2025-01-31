@@ -1,4 +1,6 @@
 {
-    "homepage": "/nuxt-landing-arch"
+  "homepage": "/nuxt-landing-arch",
+  "scripts": {
+    "build": "cd apps/nuxt-landing-arch && bun run build"
   }
-  
+}
