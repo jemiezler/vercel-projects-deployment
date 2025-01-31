@@ -1,5 +1,7 @@
 {
   "homepage": "/nuxt-landing-arch",
+  "private": true,
+  "workspaces": ["apps/*"],
   "scripts": {
     "build": "cd apps/nuxt-landing-arch && bun run build"
   }
